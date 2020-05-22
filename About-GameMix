@@ -1,0 +1,17 @@
+The GameMix project was created in the Java Spring Boot framework, as a means of testing it.
+
+To run the app, download the .zip file, extract it and open the it in the workspace of any Java IDE.
+I would recommend IntelliJ, as that is what I programmed the project in.
+
+This project uses Java Spring Boot to create a web-playable game of Blackjack, where the user competes against an AI to
+get the best score. It also makes use of Thymeleaf for view presentation and handling view-side logical operations.
+
+It makes use of autowiring, the MVC model, and polymorphism to communicate between objects based on the user's current actions.
+e.g when the user draws their next card, the controllers share that information across their models, and relay the necessary
+information to the views. The player can play a number of games against the computer, and numerous actions 
+(e.g draw a card, hold, set the value of their Ace, or see a card in the computer's hand).
+The game also keeps track of how many games in a single session that you've played and how many you've won.
+
+I made this after completing a course on Java Spring by Tim Buchanan, as proof that I understood the nuances of Spring well enough
+to create my own work. I feel very confident now in the Spring environment, that my understanding of it has broadened and I could
+code projects like this or harder in my own time at a faster rate.
